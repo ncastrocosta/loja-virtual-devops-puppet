@@ -4,7 +4,7 @@ class loja_virtual::ci inherits loja_virtual {
     ensure => 'installed',
   }
 
-  package { 'fpm':
+  package { ['fpm', 'bundler']:
     ensure => 'installed',
     provider => 'gem',
     require => Package['rubygems-integration'],
