@@ -1,0 +1,1 @@
+# loja-virtual-devops-puppet
